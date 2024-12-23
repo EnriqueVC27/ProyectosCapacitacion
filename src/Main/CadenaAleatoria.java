@@ -23,6 +23,9 @@ public class CadenaAleatoria
 	
 	public static void main(String[] args) 
 	{
+		
+		String cambioGuardado;
+		
 		char[] cadenaAleatoria = new char[250]; //Primera cadena de caracteres aleatorios (Cada que se ejecuta arroja cadenas diferentes)
 		int salto = 1; // Variable de control de salto (Cada 25 caracteres agregados se agrega un salto de linea para favorecer la visualización en terminal
 		int sumaMayusculas = 0; 
