@@ -25,6 +25,8 @@ public class CadenaAleatoria
 	{
 		
 		String cambioGuardado;
+		System.out.println("Trabajando en la segunda rama");
+		
 		
 		char[] cadenaAleatoria = new char[250]; //Primera cadena de caracteres aleatorios (Cada que se ejecuta arroja cadenas diferentes)
 		int salto = 1; // Variable de control de salto (Cada 25 caracteres agregados se agrega un salto de linea para favorecer la visualización en terminal
